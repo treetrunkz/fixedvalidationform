@@ -1,0 +1,36 @@
+.display-4 {
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+body {
+    margin: 40px 200px;
+    color: white;
+    background-color: #F6584F;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+fieldset.border {
+    border: 2px solid darkgreen !important;
+}
+
+legend {
+    font-variant: small-caps;
+}
+
+#order {
+    background-color: darkgreen;
+    display: block;
+    margin: 0 0%;
+}
+
+#submit {
+    margin: 0px 0 0 0;
+}
+
+.error {
+    color: black;
+    text-align: left;
+    visibility: hidden;
+}

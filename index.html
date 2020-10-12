@@ -1,0 +1,49 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>PP- validation</title>
+</head>
+<body>
+<form id="validationform" method="post">
+    <fieldset class="form-group">
+        <legend>Create an account</legend>
+        <div class="form-group">
+            <label for="name"> Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+            <i class="fa fa-address-card"></i>
+            <span class="err" id="errName">Field is required</span>
+        </div>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter email">
+            <span class="err" id="errEmail">Field is required</span>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+            <span class="err" id="errPassword">please make sure your password has at least 8 characters.</span>
+        </div>
+        <div class="form-group">
+            <label for="passwordConfirm">Confirm Password</label>
+            <input type="password" class="form-control" id="passwordConfirm" placeholder="Password">
+            <span class="err" id="errPasswordConfirm">Field is required</span>
+            <span class="err2" id="errPasswordConfirm2">Passwords must match!</span>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="check">
+            <label class="form-check-label" for="check">I agree to terms!</label>
+        </div>
+        <span class="err" id="errCheck">Field is required</span>
+    </fieldset>
+    <div class="text-right">
+        <button type="submit" class="btn btn-dark">Submit</button>
+    </div>
+</form>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</body>
